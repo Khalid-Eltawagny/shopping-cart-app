@@ -1,6 +1,7 @@
 import "../../css/Footer/Footer.css";
+import words from "../../words";
 function Footer() {
-  return <footer>&copy; COPYRIGHT Khalid Eltawagny 2024</footer>;
+  return <footer> {words.footerTitle}</footer>;
 }
 
 export default Footer;
