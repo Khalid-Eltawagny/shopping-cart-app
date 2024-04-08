@@ -19,9 +19,22 @@
    grid-template-rows: 50px 1fr 50px;
 }
 
-
-
 main {
   grid-area: "main";
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.productsEl {
+  width: 68%;
+  background-color: red;
+}
+
+.filterEl {
+  width: 30%;
+  background-color: blue;
+} 
