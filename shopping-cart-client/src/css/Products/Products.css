@@ -1,9 +1,11 @@
 .products-wrapper {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 .products-wrapper .product-item {
-  width: 23%;
+  margin: 0 20px;
 }
 .products-wrapper .product-item img {
   width: 100%;
